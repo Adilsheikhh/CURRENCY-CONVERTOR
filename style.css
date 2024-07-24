@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: black; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7va30GTOPL4fzsRc-OorJjGyDdfNgEowmg&s");
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+select {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M4 7l8 8-8 8'/></svg>") no-repeat right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .input-area {
+    flex-direction: column;
+  }
+  /* Existing CSS... */
+
+  /* Search Area Styles */
+  .search-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+
+  .search-area input[type="text"] {
+    width: 150px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /*.search-area button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px; /* Adjust padding as needed */
+    
